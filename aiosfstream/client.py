@@ -8,9 +8,9 @@ from typing import Optional, Union, MutableMapping, AsyncIterator, Type, cast
 from types import TracebackType
 from enum import Enum, auto, unique
 
-from aiocometd import Client as CometdClient
-from aiocometd.exceptions import ServerError
-from aiocometd.typing import JsonObject, JsonLoader, JsonDumper
+from aiocometd_noloop import Client as CometdClient
+from aiocometd_noloop.exceptions import ServerError
+from aiocometd_noloop.typing import JsonObject, JsonLoader, JsonDumper
 
 from aiosfstream.auth import AuthenticatorBase, PasswordAuthenticator
 from aiosfstream.replay import ReplayOption, ReplayMarkerStorage, \
