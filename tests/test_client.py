@@ -2,7 +2,7 @@ from collections.abc import Iterable
 
 from asynctest import TestCase, mock
 
-from aiocometd.exceptions import ServerError, AiocometdException
+from aiocometd_noloop.exceptions import ServerError, AiocometdException
 
 from aiosfstream.client import Client, COMETD_PATH, API_VERSION, \
     SalesforceStreamingClient, ReplayMarkerStoragePolicy
