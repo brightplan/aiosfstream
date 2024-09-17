@@ -6,9 +6,9 @@ import reprlib
 from typing import Optional, NamedTuple, MutableMapping, Any, cast, \
     AsyncContextManager
 
-from aiocometd import Extension
-from aiocometd.typing import Payload, Headers, JsonObject
-from aiocometd.constants import MetaChannel
+from aiocometd_noloop import Extension
+from aiocometd_noloop.typing import Payload, Headers, JsonObject
+from aiocometd_noloop.constants import MetaChannel
 
 from aiosfstream.exceptions import ReplayError
 
