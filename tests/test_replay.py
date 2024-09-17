@@ -2,7 +2,7 @@ from datetime import datetime, timezone, timedelta
 import reprlib
 
 from asynctest import TestCase, mock
-from aiocometd.constants import MetaChannel
+from aiocometd_noloop.constants import MetaChannel
 
 from aiosfstream.replay import ReplayMarkerStorage, ReplayMarker, \
     MappingStorage, ConstantReplayId, DefaultMappingStorage, \
